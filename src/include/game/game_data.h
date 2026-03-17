@@ -73,7 +73,7 @@ typedef struct Data {
 typedef struct AI {
 	int active;
 	int tdiff;
-	long lasttime;
+	unsigned int lasttime;
 	segment2 left, right, front, backleft;
 } AI;
 
