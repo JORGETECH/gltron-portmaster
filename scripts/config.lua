@@ -79,10 +79,10 @@ settings.show_scores = 1
 settings.show_2d = 1
 
 -- screen options
-settings.width = 800
-settings.height = 600
-settings.resolution = 5 -- 800x600
-settings.windowMode = 1
+settings.width = 640
+settings.height = 480
+settings.resolution = 3 -- 640x480
+settings.windowMode = 0
 
 -- other settings (not available via menu)
 settings.show_gl_logo = 1
