@@ -32,41 +32,41 @@ void nebu_Input_Init(void) {
 	//SDL_EnableKeyRepeat(0, 0); /* turn keyrepeat off */
   
 	/* joystick */
-	if(SDL_Init(SDL_INIT_JOYSTICK) >= 0) {
-		SDL_Joystick *joy;
-		int joysticks = SDL_NumJoysticks();
+	//if(SDL_Init(SDL_INIT_JOYSTICK) >= 0) {
+	//	SDL_Joystick *joy;
+	//	int joysticks = SDL_NumJoysticks();
 		
 		/* FIXME: why only two joysticks? */
 		/* joystick, currently at most 2 */
-		int max_joy=2; /* default... override by setting NEBU_MAX_JOY */
-		char *NEBU_MAX_JOY=getenv("NEBU_MAX_JOY");
+	//	int max_joy=2; /* default... override by setting NEBU_MAX_JOY */
+	//	char *NEBU_MAX_JOY=getenv("NEBU_MAX_JOY");
 		
-		if(NEBU_MAX_JOY)
-		{
-			int n;
-			char *endptr;
-			errno=0;
-			n=strtol(NEBU_MAX_JOY, &endptr, 10);
-			if(n<0)
-				n=0;
-			if(n>4)
-				n=4; /* this is the max we can handle! */
-			if(!*endptr && !errno)
-				max_joy=n;
-		}
+	//	if(NEBU_MAX_JOY)
+	//	{
+	//		int n;
+	//		char *endptr;
+	//		errno=0;
+	//		n=strtol(NEBU_MAX_JOY, &endptr, 10);
+	//		if(n<0)
+	//			n=0;
+	//		if(n>4)
+	//			n=4; /* this is the max we can handle! */
+	//		if(!*endptr && !errno)
+	//			max_joy=n;
+	//	}
 		
-		if(joysticks > max_joy)
-			joysticks = max_joy;
+	//	if(joysticks > max_joy)
+	//		joysticks = max_joy;
 		
-		for(i = 0; i < joysticks; i++) {
-			joy = SDL_JoystickOpen(i);
-		}
-		if(i)
-			SDL_JoystickEventState(SDL_ENABLE);
-	} else {
-		const char *s = SDL_GetError();
-		fprintf(stderr, "[init] couldn't initialize joysticks: %s\n", s);
-	}
+	//	for(i = 0; i < joysticks; i++) {
+	//		joy = SDL_JoystickOpen(i);
+	//	}
+	//	if(i)
+	//		SDL_JoystickEventState(SDL_ENABLE);
+	//} else {
+	//	const char *s = SDL_GetError();
+	//	fprintf(stderr, "[init] couldn't initialize joysticks: %s\n", s);
+	//}
 	for(i = 0; i < eMaxKeyState; i++)
 	{
 		keyState[i] = NEBU_INPUT_KEYSTATE_UP;
