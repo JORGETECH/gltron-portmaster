@@ -120,6 +120,12 @@ if test "x$enable_network" = xyes; then
 	AC_SUBST(NETWORK_OBJS)
 fi
 
+dnl fpermissive setup
+AC_ARG_ENABLE(fpermissive,
+AC_HELP_STRING([--enable-fpermissive],[Enable fix for newer GCC, adds "-fpermissive" to CFLAGS and CPPFLAGS, @<:@default=no@:>@]),
+	CFLAGS="$CFLAGS -fpermissive",
+	CPPFLAGS="$CPPFLAGS -fpermissive")
+
 dnl CXXFLAGS="$CFLAGS"
 
 dnl header checks
