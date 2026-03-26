@@ -55,7 +55,7 @@ settings.map_scale = 1
 -- game settings
 settings.fast_finish = 1
 settings.camType = 1
-settings.display_type = 3
+settings.display_type = 0
 
 -- video
 settings.artpacks = { }
@@ -63,8 +63,8 @@ settings.current_artpack = "classic"
 -- detail settings
 settings.mipmap_filter = 3
 settings.alpha_trails = 0
-settings.show_glow = 1
-settings.reflection = -1
+settings.show_glow = 0
+settings.reflection = 0
 settings.show_recognizer = 1
 settings.show_impact = 1
 settings.lod = 1
@@ -73,7 +73,7 @@ settings.cycle_sharp_edges = 0
 settings.show_fps = 0
 settings.show_speed = 1
 settings.show_wall_buster = 0
-settings.show_console = 1
+settings.show_console = 0
 settings.show_ai_status = 1
 settings.show_scores = 1
 settings.show_2d = 1
@@ -101,7 +101,7 @@ settings.model_backwards = 0
 settings.screenSaver = 0
 
 settings.shadow_volumes_walls = 0
-settings.shadow_volumes_cycle = 1
+settings.shadow_volumes_cycle = 0
 settings.shadow_projective_cycle_on_floor = 1
 settings.shadow_projective_trails_on_floor = 1
 settings.shadow_projective_recognizer_on_floor = 1
@@ -131,37 +131,13 @@ settings.mouse_invert_y = 0
 
 settings.keys = { 
    { -- player 1
-      left = 97, -- lower case 'a'
-      right = 115, -- lower case 's'
-      glance_left = 113, -- lower case 'q'
-      glance_right = 119, -- lower case 'w'
-      boost = 101, -- lower case 'e'
-      bust = 100, -- lower case 'd'
+      left = 1073741904, -- left keyboard key
+      right = 1073741903, -- right keyboard key
+      glance_left = 81, -- lower case 'q'
+      glance_right = 87, -- lower case 'w'
+      boost = 69, -- lower case 'e'
+      bust = 68, -- lower case 'd'
    },
-   { -- player 2
-      left = 106, -- lower case 'j'
-      right = 107, -- lower case 'k'
-      glance_left = 117, -- lower case 'u'
-      glance_right = 105, -- lower case 'i'
-			boost = 108, -- lower case 'l'
-			bust = 111, -- lower case 'o'
-   },
-   { -- player 3
-      left = 276, -- cursor left
-      right = 275, -- cursor right
-      glance_left = 127, -- 'del'
-      glance_right = 279, -- 'end'
-			boost = 274, -- cursor down
-			bust = 273, -- cursor up
-   },
-   { -- player 4
-      left = 260, -- keypad 4
-      right = 262, -- keypad 6
-      glance_left = 263, -- keypad 7
-      glance_right = 265, -- keypad 9
-			boost = 261, -- keypad h
-			bust = 259, -- keypad 3
-   }
 }
 
 -- camera
