@@ -59,7 +59,7 @@ The "--enable-localdata" option is stronly recommended so the game files are por
 
 # Special thanks to...
 
-@binarycounter for making Westonpack and giving me a lot of advice on how to use it properly.
+@binarycounter for creating Westonpack and giving me a lot of advice on how to use it properly.
 
 @Cebion for giving me advice on disabling the joystick code for fixing input with gptokeyb.
 
