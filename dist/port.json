@@ -1,0 +1,36 @@
+{
+  "version": 4,
+  "name": "gltron-sdl2.zip",
+  "items": [
+    "gltron-sdl2.sh",
+    "gltron-sdl2"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "GLtron SDL2",
+    "porter": [
+      "JORGETECH"
+    ],
+    "desc": "GLtron is a 3D lightcycle game inspired by the movie Tron for OpenGL capable devices.",
+    "desc_md": null,
+    "inst": "Ready to run",
+    "inst_md": null,
+    "genres": [
+      "arcade"
+    ],
+    "image": null,
+    "rtr": true,
+    "exp": true,
+    "runtime": [
+      "weston_pkg_0.2.squashfs"
+    ],
+    "store": [],
+    "availability": "full",
+    "reqs": [
+    ],
+    "arch": [
+      "aarch64"
+    ],
+    "min_glibc": ""
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <game>
+    <path>./gltron-sdl2.sh</path>
+    <name>GLtron SDL2</name>
+    <desc>GLtron is a 3D lightcycle game inspired by the movie Tron for OpenGL capable devices.</desc>
+    <releasedate>20250115T000000</releasedate>
+    <developer>laanwj, Andreas Umbach and GLtron contributors</developer>
+    <publisher>GLtron developers</publisher>
+    <genre>Arcade</genre>
+    <image>./gltron-sdl2/screenshot.png</image>
+  </game>
+</gameList>

@@ -1,0 +1,29 @@
+start = enter
+guide = esc
+
+a = e
+b = d
+x = e
+y = d
+
+l1 = q
+l2 = mouse_left
+l3 = mouse_left
+
+r1 = w
+r2 = mouse_right
+r3 = mouse_right
+
+up = up
+down = down
+left = left
+right = right
+
+left_analog_up = up
+left_analog_down = down
+left_analog_left = left
+left_analog_right = right
+
+right_analog_up = mouse_movement_up
+
+mouse_scale=4096
