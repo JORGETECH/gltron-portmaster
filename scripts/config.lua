@@ -125,8 +125,8 @@ settings.musicVolume = 0.5
 
 -- input
 
-settings.mouse_lock_ingame = 0
-settings.mouse_invert_x = 0
+settings.mouse_lock_ingame = 1
+settings.mouse_invert_x = 1
 settings.mouse_invert_y = 0
 
 settings.keys = { 
