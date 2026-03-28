@@ -77,7 +77,7 @@ static void initFollowCamera(Camera *cam) {
 	cam->type.coupled = 1;
 	cam->type.freedom[CAM_FREE_R] = 1;
 	cam->type.freedom[CAM_FREE_PHI] = 1;
-	cam->type.freedom[CAM_FREE_CHI] = 1;
+	cam->type.freedom[CAM_FREE_CHI] = 0;
 }
 
 static void initCockpitCamera(Camera *cam) {
